@@ -58,6 +58,9 @@ project(':rish').projectDir = file("$root${File.separator}rish")
 include ':shared'
 project(':shared').projectDir = file("$root${File.separator}shared")
 
+include ':shared-stub'
+project(':shared-stub').projectDir = file("$root${File.separator}shared-stub")
+
 include ':api'
 project(':api').projectDir = file("$root${File.separator}api")
 
